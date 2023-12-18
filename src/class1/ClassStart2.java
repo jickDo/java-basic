@@ -11,6 +11,5 @@ public class ClassStart2 {
             System.out.println("이름"+ studentNames[i]+ "나이: "+studentAges[i]+" 성적: "+studentGrades[i]);
         }
 
-        //위 코드의 문제는 학생이 늘어날때 마다 변수도 추가선언해야 하고, 출력하는 코드도 선언해야한다.
     }
 }
