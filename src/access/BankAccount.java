@@ -10,7 +10,7 @@ public class BankAccount {
 
     public void deposit(int amount){
         if (isAmountValid(amount)){
-            balance+=amount
+            balance+=amount;
         }else {
             System.out.println("잘못된 입급입니다.");
         }
@@ -24,8 +24,8 @@ public class BankAccount {
         }
     }
 
-    public int getBalance(){
-        return balance;
+    public void getBalance(){
+        System.out.println("현재 금액은: "+balance);
     }
 
 
