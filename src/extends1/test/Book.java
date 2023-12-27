@@ -1,4 +1,4 @@
 package extends1.test;
 
-public class Book {
+public class Book extends {
 }
