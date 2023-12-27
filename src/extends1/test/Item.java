@@ -9,4 +9,8 @@ public class Item {
         this.name = name;
         this.price = price;
     }
+
+    public void print(){
+        System.out.println("이름: "+name+" 가격: "+price);
+    }
 }
