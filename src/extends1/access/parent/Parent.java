@@ -11,14 +11,18 @@ public class Parent {
         System.out.println("Parent.publicMethod");
     }
 
-    protected int protectedMethod(){
+    protected void protectedMethod(){
         System.out.println("Parent.protectedMethod");
     }
 
     void defaultMethod(){
         System.out.println("Parent.defaultMethod");
     }
-    private void privateMethod() {
+    private void privateMethod(){
+        System.out.println("Parent.privateMethod");
+    }
+
+    public void printMethod() {
         System.out.println("==private 메서드 안==");
         System.out.println("publicValue = "+publicValue);
         System.out.println("proctedValue = "+protectedValue);
