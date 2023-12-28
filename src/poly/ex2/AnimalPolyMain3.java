@@ -15,6 +15,7 @@ public class AnimalPolyMain3 {
         //메서드 오버라이딩으로 실행시점에 각각의 메서드 출력
     }
 
+    //변하지 않는 부분
     private static void soundAnimal(Animal animal) {
         System.out.println("동물 소리 테스트 시작");
         animal.sound();
