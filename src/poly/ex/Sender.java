@@ -2,5 +2,5 @@ package poly.ex;
 
 public interface Sender {
 
-    void sendMessage();
+    void sendMessage(String message);
 }
