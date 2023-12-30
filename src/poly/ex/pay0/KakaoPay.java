@@ -3,16 +3,14 @@ package poly.ex.pay0;
 public class KakaoPay implements PayPlatform {
     private int money=0;
     @Override
-    public void pay(int amount) {
+    public void pay() {
         System.out.println("카카오 시스템과 연결합니다");
-        System.out.println(amount+"원 결제 합니다");
-        validAmount(amount);
+        System.out.println(money+"원 결제 합니다");
+        validAmount(money);
     }
 
     @Override
     public void deposit(int amount) {
-        System.out.println("카카오 시스템과 연결합니다");
-        System.out.println("카카오 포인트를 충전합니다 "+amount);
         this.money+=amount;
     }
 
