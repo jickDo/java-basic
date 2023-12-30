@@ -1,4 +1,8 @@
 package poly.ex;
 
-public class EmailSender {
+public class EmailSender implements Sender{
+    @Override
+    public void sendMessage() {
+        System.out.println("메일을 발송합니다: 환영합니다!");
+    }
 }
