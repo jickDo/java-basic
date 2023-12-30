@@ -1,7 +1,6 @@
 package poly.ex.pay0;
 
 public class PayMain0 {
-    public class PayMain0 {
         public static void main(String[] args) {
             PayService payService = new PayService();
 
@@ -20,4 +19,4 @@ public class PayMain0 {
             int amount3 = 15000;
             payService.processPay(payOption3, amount3);
         }
-    }}
+    }
